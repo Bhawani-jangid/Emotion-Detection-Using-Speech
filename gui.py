@@ -7,7 +7,7 @@ import tensorflow as tf
 from scipy.io.wavfile import write
 
 # Load your pre-trained model
-model = tf.keras.models.load_model(r"C:\Users\DELL\DATA SCIENCE\Voice Emotion\EmotionSpeech.h5")
+model = tf.keras.models.load_model(r"path_of_file\EmotionSpeech.h5")
 
 # Define the emotion labels
 emotion_labels = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
